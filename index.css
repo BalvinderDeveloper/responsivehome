@@ -1,0 +1,424 @@
+ 
+.header{
+    width: 100%;
+    height: 0px;
+    background-color: #b5a595;
+}
+#icon{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+}
+span{
+    margin-left: 1%;
+    font-size: 33px;
+    color: #f61c0d
+}
+#social{
+    float: right;
+    margin-top: 17px;
+    width: 33%;
+}
+nav{
+    float: left;
+    font-size: 20px;
+    width: 100%;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   letter-spacing: 1px;
+    margin-left: 3%;
+}
+ 
+.search{
+    width: 100%;
+    height: 420px;
+   background-image: url( "https://i.ibb.co/q1YCDRL/lily-banse-YHSwy6uqvk-unsplash.jpg");
+   background-size: 100% 420px;
+}
+.s1{
+    width: 100%;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+.logo{
+    width: 33%;
+    height: 97px;
+    margin-top: 81px;
+    margin-left: 37%;
+    position: absolute;
+    font-size: 68px;
+  
+}
+.log{
+    font-weight: bold;
+    color: #ffffff;
+    animation: dance 2sec infinite;
+
+}
+@keyframes dance{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    60% {transform: scale(1.1)}
+    50% {transform: rotate(5deg)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+ 
+.ab{
+    margin-top: 182px;
+    margin-left: 24%;
+    position: absolute;
+    font-size: 45px;
+    color: #ffffff;
+}
+ 
+     .loco{
+        margin-top: 250px;
+        width: 60%;
+        height: 60px;
+        margin-left: 22%;
+        box-shadow: 0px 0px 5px gray;
+        border-radius: 10px;
+        position: absolute;
+        background-color: white;
+    }
+    .location{
+        height: 60px;
+        width: 39%;
+        margin-left: 1%;
+        border-color: white;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .sear{
+           height: 55px;  
+        width: 59%;
+        border: 0px solid white;
+      
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .sear>input{
+        height: 60px;
+        width: 100%;
+    }
+  
+  .s{
+      width: 50%;
+      height: 30px;
+      float: left;
+      text-align: center;    
+  }
+  .Quicksearch{
+    background-color: #ffffff38;
+  }
+.Main{
+    height: 250px;
+    width: 90%;
+     margin-left: 5%;
+    margin-top: 40px;
+}
+ 
+.tilecontainer{
+    height: 220px;
+    width: 23%;
+    display: inline-block;
+    margin-left: 1%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+     border-radius: 10%;
+  
+}
+.tilecomponent1{
+    height: 180px;
+    width: 100%;
+ 
+      
+}
+.tilecomponent1 img{
+    height: 180px;
+    width: 100%;
+    border-top-left-radius:10% ;
+    border-top-right-radius:10% ;
+ }
+.tilecomponent2{
+    height: 40px;
+    width: 100%;
+    
+        background-color:#ffffff;
+        border-bottom-left-radius:24px ;
+        border-bottom-right-radius:24px ;
+}
+ .Componentheading{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 25px;
+     text-align: center;
+     
+ }
+.Collections{
+    height: 450px;
+    width: 90%;
+     margin-left: 5%;
+    margin-top: 50px;
+  
+} 
+.Cheading{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1%;
+}
+.Csubheading{
+    font-size: 20px;
+    margin-left: 1%;
+}
+.Ccontainer{
+    margin-top: 30px;
+}
+
+.tilecontainer1{
+    height:310px;
+    width: 23%;
+    display: inline-block;
+    margin-left: 1%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+     border-radius: 10px;
+     background-image: url("https://b.zmtcdn.com/data/collections/01c4e61b30650bc816b5f627aefa0464_1646986437.jpg");
+     background-size:100% 310px ;
+}
+.tilecontainer2{
+    height:310px;
+    width: 23%;
+    display: inline-block;
+    margin-left: 1%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+     border-radius: 10px;
+     background-image: url("https://b.zmtcdn.com/data/collections/f60eb469dbcdadaaa48c8be4f5ba48b3_1646040101.png");
+     background-size:100% 310px ;
+}
+.tilecontainer3{
+    height:310px;
+    width: 23%;
+    display: inline-block;
+    margin-left: 1%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+     border-radius: 10px;
+     background-image: url("https://b.zmtcdn.com/data/collections/dc55234ebcab4867fa2eb65730c4a695_1646987030.jpg");
+     background-size:100% 310px ;
+}
+.tilecontainer4{
+    height:310px;
+    width: 23%;
+    display: inline-block;
+    margin-left: 1%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+     border-radius: 10px;
+     background-image: url("https://b.zmtcdn.com/data/collections/821a4a7a6a0f8c265f5bf804cf18dfa3_1631714127.jpg");
+     background-size:100% 310px ;
+}
+.tcheading{
+    margin-top: 250px;
+    color: white;
+}
+.tcsubheading{
+    color: white;
+}
+
+.footer{
+    height: 180px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+.f1{
+    height: 50px;
+    width: 100%;
+    background-color:#b5a595;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f2{
+    height: 130px;
+    width: 100%;
+    background-color:#b5a595;
+    text-align: center;
+  
+}
+.f2a{
+    width: 33%;
+    float: left;
+    line-height: 4%;
+}
+.f2b{
+    width: 33%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    float: left;
+    line-height: 4%;
+}
+ 
+@media screen and (max-width:1600px){
+    
+}
+@media screen and (max-width:1200px){
+    
+     
+    #social {
+         
+        width: 36%;
+    }
+    .logo{
+        width: 51%;
+       margin-left: 31%;
+   
+    }
+    .ab{
+     margin-left: 22%;
+      font-size: 39px;
+     }
+}
+@media screen and (max-width:1000px){
+    
+    .ab {
+        margin-left: 18%;
+    }
+    .loco{
+         
+        height: 51px;
+        margin-left: 19%;
+       
+    }
+    .location {
+        height: 45px;
+    }
+    .sear{
+    height: 47px;
+    width: 58%;
+     
+    font-size: 19px;
+    }
+    .Componentheading{
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width:800px){
+     
+    #social {
+        width: 50%;
+    }
+    nav { 
+        font-size: 14px;
+    }
+    .logo{
+        width: 51%;
+        margin-left: 26%;
+    
+        font-size: 46px;
+    }
+   .ab{ 
+    margin-left: 20%;
+    font-size: 26px;
+    margin-top: 150px;
+   }
+   .loco{
+       margin-top: 204px;
+   }
+    .search{
+        height: 339px;
+    }
+    .s1{
+        height: 339px;
+    }
+    .main{
+        height: 500px;
+    }
+    .tilecontainer {
+         width: 43%;
+         margin-left: 6%;
+        margin-top: 30px;
+    }
+    .Collections{
+        height: 785px;
+    }
+    .tilecontainer1 {
+         width: 40%;
+         margin-left: 8%;
+         
+        
+    }
+    .tilecontainer2{
+        width: 40%;
+        margin-left: 8%;
+       
+   }
+   .tilecontainer3{
+    width: 40%;
+    margin-left: 8%;
+    margin-top: 30px;
+   
+    }
+   .tilecontainer4{
+    width: 40%;
+    margin-left: 8%;
+    margin-top: 30px;
+   }
+}    
+@media screen and (max-width:550px){
+     
+    .logo {
+       
+        font-size: 38px;
+    }
+    .ab {
+         
+        margin-left: 14%;
+        font-size: 23px;
+        margin-top: 138px;
+    }
+    .loco{
+        margin-top: 176px;
+        margin-left: 10%;
+        width: 82%;
+    }
+    .search{
+        height: 276px;
+    }
+    .s1{
+        height: 276px;
+    }
+    .main{
+        margin-top: 0px;
+    }
+   
+    .tilecontainer1{
+        height: 224px;
+      background-size: 100% 224px;
+
+     }    
+ 
+    .tilecontainer2{
+        height: 224px;
+    background-size: 100% 224px;
+    }
+    .tilecontainer3{
+        height: 224px;
+    background-size: 100% 224px;
+    }
+    .tilecontainer4{
+        height: 224px;
+    background-size: 100% 224px;
+    }
+    .tcheading{
+        margin-top: 167px;
+    }
+    .Collections {
+        height: 634px;
+    }
+}
