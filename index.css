@@ -287,7 +287,9 @@ span{
 @media screen and (max-width:1000px){
     
     .ab {
-        margin-left: 18%;
+        margin-left: 19%;
+        font-size: 30px;    
+
     }
     .loco{
          
@@ -305,7 +307,7 @@ span{
     font-size: 19px;
     }
     .logo{
-        width: 51%;
+        width: 54%;
         margin-left: 26%;
     
         font-size: 62px;
@@ -321,9 +323,7 @@ span{
         width: 50%;
         
     }
-    nav { 
-        font-size: 10px;
-    }
+     
     .logo{
         width: 51%;
         margin-left: 26%;
