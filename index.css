@@ -4,6 +4,9 @@
     height: 0px;
     background-color: #b5a595;
 }
+#naav{
+    float: right !important;
+}
 #icon{
     float: left;
     margin-top: 10px;
@@ -22,24 +25,15 @@ span{
     margin-top: 17px;
     width: 33%;
 }
-nav{
-    float: left;
-    font-size: 20px;
-    width: 100%;
-}
-nav a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   letter-spacing: 1px;
-    margin-left: 3%;
-}
+ 
+ 
  
 .search{
     width: 100%;
     height: 420px;
    background-image: url( "https://i.ibb.co/q1YCDRL/lily-banse-YHSwy6uqvk-unsplash.jpg");
    background-size: 100% 420px;
+   margin-top: 60px;
 }
 .s1{
     width: 100%;
@@ -47,7 +41,7 @@ nav a{
     background-color: rgba(0, 0, 0, 0.582);
 }
 .logo{
-    width: 33%;
+    width: 45%;
     height: 97px;
     margin-top: 81px;
     margin-left: 37%;
@@ -126,7 +120,10 @@ nav a{
      margin-left: 5%;
     margin-top: 40px;
 }
- 
+#x{
+    height: auto;
+    width: 90%;
+}
 .tilecontainer{
     height: 220px;
      width: 100%;
@@ -151,7 +148,7 @@ nav a{
     border-top-right-radius:10% ;
  }
 .tilecomponent2{
-    height: 40px;
+    height: 36px;
     width: 100%;
     
         background-color:#ffffff;
@@ -169,7 +166,7 @@ nav a{
      color: black;
  }
 .Collections{
-    height: 450px;
+    height: auto;
     width: 90%;
      margin-left: 5%;
     margin-top: 50px;
@@ -240,6 +237,7 @@ nav a{
     height: 180px;
     width: 100%;
     margin-bottom: 1px;
+    margin-top: 40px;
 }
 .f1{
     height: 50px;
@@ -268,9 +266,7 @@ nav a{
     float: left;
     line-height: 4%;
 }
-#x{
-    height: auto;
-}
+
 @media screen and (max-width:1200px){
     
      
@@ -308,6 +304,12 @@ nav a{
      
     font-size: 19px;
     }
+    .logo{
+        width: 51%;
+        margin-left: 26%;
+    
+        font-size: 62px;
+    }
     .Componentheading{
         font-size: 20px
     }
@@ -326,7 +328,7 @@ nav a{
         width: 51%;
         margin-left: 26%;
     
-        font-size: 46px;
+        font-size: 40px;
     }
    .ab{ 
     margin-left: 20%;
@@ -346,32 +348,30 @@ nav a{
         height: 500px;
     }
     .tilecontainer {
-         width: 43%;
+        width: 85%;
          margin-left: 6%;
         margin-top: 30px;
     }
-    .Collections{
-        height: 785px;
-    }
+    
     .tilecontainer1 {
-         width: 40%;
+         width:  88%;
          margin-left: 8%;
          
         
     }
     .tilecontainer2{
-        width: 40%;
+        width: 88%;
         margin-left: 8%;
        
    }
    .tilecontainer3{
-    width: 40%;
+    width: 88%;
     margin-left: 8%;
     margin-top: 30px;
    
     }
    .tilecontainer4{
-    width: 40%;
+    width: 88%;
     margin-left: 8%;
     margin-top: 30px;
    }
@@ -380,7 +380,7 @@ nav a{
      
     .logo {
        
-        font-size: 38px;
+        font-size: 36px;
     }
     .ab {
          
@@ -399,32 +399,47 @@ nav a{
     .s1{
         height: 276px;
     }
+
     .main{
         margin-top: 0px;
     }
-   
+    .tilecontainer {
+        width: 68%;
+         margin-left: 13%;
+         
+    }
     .tilecontainer1{
-        height: 224px;
-      background-size: 100% 224px;
+        height: 300px;
+        width: 76%;
+        background-size: 100% 300px;
+        
+        margin-left: 13%;
 
      }    
  
     .tilecontainer2{
-        height: 224px;
-    background-size: 100% 224px;
+        height: 300px;
+        width: 76%;
+        background-size: 100% 300px;
+        margin-top: 20px;
+        margin-left: 13%;
     }
     .tilecontainer3{
-        height: 224px;
-    background-size: 100% 224px;
+        height: 300px;
+        width: 76%;
+        background-size: 100% 300px;
+
+        margin-left: 13%;
     }
     .tilecontainer4{
-        height: 224px;
-    background-size: 100% 224px;
+        height: 300px;
+        width: 76%;
+        background-size: 100% 300px;
+        
+        margin-left: 13%;
     }
     .tcheading{
         margin-top: 167px;
     }
-    .Collections {
-        height: 634px;
-    }
+     
 }
