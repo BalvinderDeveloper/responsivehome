@@ -443,3 +443,23 @@ span{
     }
      
 }
+@media screen and (max-width:410px){
+    .search{
+        height: 326px;
+        
+    }
+    .s1{
+        height: 326px;
+    }
+    .logo {
+       
+        font-size: 28px;
+    }
+    .ab {
+         
+         
+        font-size: 17px;
+       
+    }
+
+}
