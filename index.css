@@ -113,12 +113,13 @@ span{
   }
   .Quicksearch{
     background-color: #ffffff38;
+
   }
 .Main{
     height: 250px;
      
      margin-left: 5%;
-    margin-top: 40px;
+   
 }
 #x{
     height: auto;
@@ -131,8 +132,8 @@ span{
     margin-left: 1%;
     border: 1px solid rgba(128, 128, 128, 0.5);
      border-radius: 10%;
-     float: left;
-     margin-top: 10px;
+     float:left;
+     margin-top: 50px;
   
 }
 .tilecomponent1{
@@ -225,12 +226,22 @@ span{
      background-image: url("https://b.zmtcdn.com/data/collections/821a4a7a6a0f8c265f5bf804cf18dfa3_1631714127.jpg");
      background-size:100% 310px ;
 }
-.tcheading{
-    margin-top: 250px;
+.tc{
+    overflow: hidden;
+    margin-top: 210px;
+    background-image: linear-gradient(0deg,rgb(0, 0, 0),rgba(44, 40, 40, 0.466));
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
     color: white;
+    position: relative;
+   
+}
+.tcheading{
+    font-size: 25px;
+  
 }
 .tcsubheading{
-    color: white;
+    font-size: 20px;
 }
 
 .footer{
@@ -258,6 +269,7 @@ span{
     width: 33%;
     float: left;
     line-height: 4%;
+    margin-top: 10px;
 }
 .f2b{
     width: 33%;
@@ -265,6 +277,7 @@ span{
     border-right: 2px solid black;
     float: left;
     line-height: 4%;
+    margin-top: 10px;
 }
 
 @media screen and (max-width:1200px){
@@ -285,7 +298,9 @@ span{
      }
 }
 @media screen and (max-width:1000px){
-    
+    .Componentheading{
+        font-size: 16px;
+    }
     .ab {
         margin-left: 19%;
         font-size: 30px;    
@@ -312,18 +327,28 @@ span{
     
         font-size: 62px;
     }
-    .Componentheading{
-        font-size: 20px
+ 
+    .tcheading {
+        font-size: 18px;
     }
+    .tcsubheading {
+        font-size: 13px;
+    }
+    .tc{
+        margin-top: 229px;
+    }
+
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
      
     #social {
         width: 50%;
         
     }
-     
+    .Componentheading {
+        font-size: 20px;
+    }
     .logo{
         width: 51%;
         margin-left: 26%;
@@ -374,6 +399,10 @@ span{
     width: 88%;
     margin-left: 8%;
     margin-top: 30px;
+   }
+   .tc {
+    overflow: hidden;
+    margin-top: 229px;
    }
 }    
 @media screen and (max-width:550px){
@@ -438,10 +467,9 @@ span{
         
         margin-left: 13%;
     }
-    .tcheading{
-        margin-top: 167px;
+    .tc{
+        margin-top: 221px ;
     }
-     
 }
 @media screen and (max-width:410px){
     .search{
@@ -461,5 +489,10 @@ span{
         font-size: 17px;
        
     }
+}
+.tc {
+
+}
+   
 
 }
